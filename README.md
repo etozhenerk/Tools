@@ -12,73 +12,73 @@
 
     a.bundle.js
 
-    <img src="src/duplicates/a.bundle.jpg" width="600"/>
+    [Скриншот](src/duplicates/a.bundle.jpg)
 
     all.2.js
 
-    <img src="src/duplicates/all.2.jpg" width="600"/>
+    [Скриншот](src/duplicates/all.2.jpg)
 
     Бандлы bootstrap
 
-    <img src="src/duplicates/bootstrap.jpg" width="600"/>
+    [Скриншот](src/duplicates/bootstrap.jpg)
 
     cast_sender.js
 
-    <img src="src/duplicates/cast_sender.jpg" width="600"/>
+    [Скриншот](src/duplicates/cast_sender.jpg)
 
     code.js
 
-    <img src="src/duplicates/code.jpg" width="600"/>
+    [Скриншот](src/duplicates/code.jpg)
 
     common.js
 
-    <img src="src/duplicates/common.jpg" width="600"/>
+    [Скриншот](src/duplicates/common.jpg)
 
     jquery
 
-    <img src="src/duplicates/jquery.jpg" width="600"/>
+    [Скриншот](src/duplicates/jquery.jpg)
 
     lib
 
-    <img src="src/duplicates/lib.jpg" width="600"/>
+    [Скриншот](src/duplicates/lib.jpg)
 
     loader.js
 
-    <img src="src/duplicates/loader.jpg" width="600"/>
+    [Скриншот](src/duplicates/loader.jpg)
 
     polezno.js
 
-    <img src="src/duplicates/polezno.jpg" width="600"/>
+    [Скриншот](src/duplicates/polezno.jpg)
 
     popper.js
 
-    <img src="src/duplicates/popper.jpg" width="600"/>
+    [Скриншот](src/duplicates/popper.jpg)
 
     Css Бандлы bootstrap
 
-    <img src="src/duplicates/bootstrap_css.jpg" width="600"/>
+    [Скриншот](src/duplicates/bootstrap_css.jpg)
 
     файлы со стилями
 
-    <img src="src/duplicates/all.jpg" width="600"/>
+    [Скриншот](src/duplicates/all.jpg)
 
     2 одинаковые картинки
 
-    <img src="src/duplicates/img.jpg" width="600"/>
+    [Скриншот](src/duplicates/img.jpg)
 
     2 баннера рамблер
 
-    <img src="src/duplicates/rambler100.jpg" width="600"/>
+    [Скриншот](src/duplicates/rambler100.jpg)
 
     1.2.2 лишний размер ресурса
 
     Файлы JS с большим весом
 
-    <img src="src/js_big_size.jpg" width="600"/>
+    [Скриншот](src/duplicates/js_big_size.jpg)
 
     Файлы CSS с большим весом
 
-    <img src="src/css_big_size.jpg" width="600"/>
+    [Скриншот](src/duplicates/css_big_size.jpg)
 
     Файлы IMG с большим весом. Присутствуют изображения в формате png с большим весом, у которых нет прозрачного фона. Например:
 
@@ -88,11 +88,11 @@
     -   makves_mini2.png
     -   fns-obnovila-bazu-dolgov-kompaniy-pered-byudjetom3.png
 
-    <img src="src/img_big_size.jpg" width="600"/>
+    [Скриншот](src/duplicates/img_big_size.jpg)
 
     Шрифты с большим весом
 
-    <img src="src/fonts_big_size.jpg" width="600"/>
+    [Скриншот](src/duplicates/fonts_big_size.jpg)
 
     1.2.3 медленно загружающиеся ресурсы
 
