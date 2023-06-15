@@ -12,73 +12,73 @@
 
     a.bundle.js
 
-    <img src="src/duplicates/a.bundle.jpg" width="400"/>
+    <img src="src/duplicates/a.bundle.jpg" width="600"/>
 
     all.2.js
 
-    <img src="src/duplicates/all.2.jpg" width="400"/>
+    <img src="src/duplicates/all.2.jpg" width="600"/>
 
     Бандлы bootstrap
 
-    <img src="src/duplicates/bootstrap.jpg" width="400"/>
+    <img src="src/duplicates/bootstrap.jpg" width="600"/>
 
     cast_sender.js
 
-    <img src="src/duplicates/cast_sender.jpg" width="400"/>
+    <img src="src/duplicates/cast_sender.jpg" width="600"/>
 
     code.js
 
-    <img src="src/duplicates/code.jpg" width="400"/>
+    <img src="src/duplicates/code.jpg" width="600"/>
 
     common.js
 
-    <img src="src/duplicates/common.jpg" width="400"/>
+    <img src="src/duplicates/common.jpg" width="600"/>
 
     jquery
 
-    <img src="src/duplicates/jquery.jpg" width="400"/>
+    <img src="src/duplicates/jquery.jpg" width="600"/>
 
     lib
 
-    <img src="src/duplicates/lib.jpg" width="400"/>
+    <img src="src/duplicates/lib.jpg" width="600"/>
 
     loader.js
 
-    <img src="src/duplicates/loader.jpg" width="400"/>
+    <img src="src/duplicates/loader.jpg" width="600"/>
 
     polezno.js
 
-    <img src="src/duplicates/polezno.jpg" width="400"/>
+    <img src="src/duplicates/polezno.jpg" width="600"/>
 
     pooper.js
 
-    <img src="src/duplicates/pooper.jpg" width="400"/>
+    <img src="src/duplicates/pooper.jpg" width="600"/>
 
     Css Бандлы bootstrap
 
-    <img src="src/duplicates/bootstrap_css.jpg" width="400"/>
+    <img src="src/duplicates/bootstrap_css.jpg" width="600"/>
 
     файлы со стилями
 
-    <img src="src/duplicates/all.jpg" width="400"/>
+    <img src="src/duplicates/all.jpg" width="600"/>
 
     2 одинаковые картинки
 
-    <img src="src/duplicates/img.jpg"/>
+    <img src="src/duplicates/img.jpg" width="600"/>
 
     2 баннера рамблер
 
-    <img src="src/duplicates/rambler100.jpg"/>
+    <img src="src/duplicates/rambler100.jpg" width="600"/>
 
     1.2.2 лишний размер ресурса
 
     Файлы JS с большим весом
 
-    <img src="src/js_big_size.jpg" width="400"/>
+    <img src="src/js_big_size.jpg" width="600"/>
 
     Файлы CSS с большим весом
 
-    <img src="src/css_big_size.jpg" width="400"/>
+    <img src="src/css_big_size.jpg" width="600"/>
 
     Файлы IMG с большим весом. Присутствуют изображения в формате png с большим весом, у которых нет прозрачного фона. Например:
 
@@ -88,11 +88,11 @@
     -   makves_mini2.png
     -   fns-obnovila-bazu-dolgov-kompaniy-pered-byudjetom3.png
 
-    <img src="src/img_big_size.jpg" width="400"/>
+    <img src="src/img_big_size.jpg" width="600"/>
 
     Шрифты с большим весом
 
-    <img src="src/fonts_big_size.jpg" width="400"/>
+    <img src="src/fonts_big_size.jpg" width="600"/>
 
     1.2.3 медленно загружающиеся ресурсы
 
