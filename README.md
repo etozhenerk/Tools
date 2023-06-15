@@ -50,9 +50,9 @@
 
     <img src="src/duplicates/polezno.jpg" width="600"/>
 
-    pooper.js
+    popper.js
 
-    <img src="src/duplicates/pooper.jpg" width="600"/>
+    <img src="src/duplicates/popper.jpg" width="600"/>
 
     Css Бандлы bootstrap
 
@@ -160,7 +160,7 @@
 
     <img src="src/LCPelement.jpg"/>
 
-        2.4 измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
+    2.4 измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
 
     -   Loading - 43 ms
     -   Scripting - 1618 ms
