@@ -162,10 +162,10 @@
 
     2.4 измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
 
-    -   Loading - 43 ms
-    -   Scripting - 1618 ms
-    -   Rendering - 282 ms
-    -   Painting - 23 ms
+    -   Loading - 38 ms
+    -   Scripting - 1630 ms
+    -   Rendering - 431 ms
+    -   Painting - 60 ms
 
     <img src="src/Load_summary.jpg"/>
 
