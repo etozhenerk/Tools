@@ -1,3 +1,5 @@
+# Использование Chrome DevTools - анализ открытия сайта.
+
 1.  Network
 
     1.1 записать и сохранить в HAR архив профиль загрузки ресурсов при открытии страницы
@@ -88,11 +90,11 @@
     -   makves_mini2.png
     -   fns-obnovila-bazu-dolgov-kompaniy-pered-byudjetom3.png
 
-    [Скриншот](src/duplicates/img_big_size.jpg)
+    [Скриншот](src/img_big_size.jpg)
 
     Шрифты с большим весом
 
-    [Скриншот](src/duplicates/fonts_big_size.jpg)
+    [Скриншот](src/fonts_big_size.jpg)
 
     1.2.3 медленно загружающиеся ресурсы
 
@@ -130,27 +132,27 @@
 
     2.1 записать и сохранить в файл профиль загрузки страницы
 
-    [Trace.json](/src/Trace-20230615T142315)
+    [Trace.json](/src/Trace-20230618T135449.json)
 
     2.2 измерить время в миллисекундах от начала навигации до событий First Paint (FP), First Contentful Paint (FCP), Largest Contentful Paint (LCP), DOM Content Loaded (DCL), Load
 
-    -   First Paint - 379.7 ms
+    -   First Paint - 534.5 ms
 
     <img src="src/FP.jpg"/>
 
-    -   First Contentful Paint - 379.7 ms
+    -   First Contentful Paint - 534.5 ms
 
     <img src="src/FCP.jpg"/>
 
-    -   Largest Contentful Paint - 1301.0 ms
+    -   Largest Contentful Paint - 1207.2 ms
 
     <img src="src/LCP.jpg"/>
 
-    -   DOM Content Loaded - 1004.5 ms
+    -   DOM Content Loaded - 970.6 ms
 
     <img src="src/DCL.jpg"/>
 
-    -   Load - 41958.6 ms
+    -   Load - 41678.1 ms
 
     <img src="src/Load.jpg"/>
 
@@ -163,9 +165,9 @@
     2.4 измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
 
     -   Loading - 38 ms
-    -   Scripting - 1630 ms
-    -   Rendering - 431 ms
-    -   Painting - 60 ms
+    -   Scripting - 1607 ms
+    -   Rendering - 255 ms
+    -   Painting - 24 ms
 
     <img src="src/Load_summary.jpg"/>
 
@@ -186,3 +188,67 @@
     3.3 измерить в килобайтах объём неиспользованного JS в ходе загрузки страницы
 
     -   2300 KB
+
+# Дополнительное задание - замедление CPU 4x slowdown и эмуляцию сети Slow 3G.
+
+1.  Network
+
+    1.1 записать и сохранить в HAR архив профиль загрузки ресурсов при открытии страницы
+
+    [Har файл](/src/slow/www.gd.ru.har)
+
+    1.2 найти неоптимальные места:
+
+    1.2.3 медленно загружающиеся ресурсы
+
+    Сделана выборка ресурсов с показателем Time > 9 s
+
+    <img src="src/slow/long_requests.jpg"/>
+
+    1.2.4 ресурсы, блокирующие загрузку
+
+    <img src="src/slow/block_requests1.jpg"/>
+    <img src="src/slow/block_requests2.jpg"/>
+
+2.  Performance
+
+    2.1 записать и сохранить в файл профиль загрузки страницы
+
+    [Trace.json](https://disk.yandex.ru/d/nEzlxNr04gwP2Q)
+
+    2.2 измерить время в миллисекундах от начала навигации до событий First Paint (FP), First Contentful Paint (FCP), Largest Contentful Paint (LCP), DOM Content Loaded (DCL), Load
+
+    -   First Paint - 70367.2 ms
+
+    <img src="src/slow/FP_slow.jpg"/>
+
+    -   First Contentful Paint - 70367.2 ms
+
+    <img src="src/slow/FCP_slow.jpg"/>
+
+    -   Largest Contentful Paint - 70367.2 ms
+
+    <img src="src/slow/LCP_slow.jpg"/>
+
+    -   DOM Content Loaded - 39803.2 ms
+
+    <img src="src/slow/DCL_slow.jpg"/>
+
+    -   Load - 102325.6 ms
+
+    <img src="src/slow/load_slow.jpg"/>
+
+    2.3 определить, на каком DOM-элементе происходит LCP
+
+    -   `<h1 class="page__title" itemprop="headline name">Финансовый контроль: методы анализа и оценки эффективности</h1>`
+
+    <img src="src/slow/LCPelement_slow.jpg"/>
+
+    2.4 измерить, сколько времени в миллисекундах тратится на разные этапы обработки документа (Loading, Scripting, Rendering, Painting)
+
+    -   Loading - 38 ms
+    -   Scripting - 1607 ms
+    -   Rendering - 255 ms
+    -   Painting - 24 ms
+
+    <img src="src/slow/Load_summary_slow.jpg"/>
