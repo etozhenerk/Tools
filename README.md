@@ -114,17 +114,17 @@
 
     CORS-errors:
 
-    -   https://www.law.ru/images/fonts/proxima-nova.ttf
-    -   https://api.action-media.ru/auth/check-backend/api/v2/auth_check
+    -   `https://www.law.ru/images/fonts/proxima-nova.ttf`
+    -   `https://api.action-media.ru/auth/check-backend/api/v2/auth_check`
 
     [Скриншот Network с корс ошибками](src/blocked_requests.jpg)
 
     Запросы с ошибками:
 
-    -   https://play.google.com/log?format=json&hasfast=true&authuser=0
-    -   https://googleads.g.doubleclick.net/pagead/id
-    -   https://static.doubleclick.net/instream/ad_status.js
-    -   https://yt3.ggpht.com/1LwGipwHZu5_qOiZOXZ7kjeKv8lTcCt426WCqCb1B3pq3IjULe8nETElArV6QACburVzdomA3aU=s68-c-k-c0x00ffffff-no-rj
+    -   `https://play.google.com/log?format=json&hasfast=true&authuser=0`
+    -   `https://googleads.g.doubleclick.net/pagead/id`
+    -   `https://static.doubleclick.net/instream/ad_status.js`
+    -   `https://yt3.ggpht.com/1LwGipwHZu5_qOiZOXZ7kjeKv8lTcCt426WCqCb1B3pq3IjULe8nETElArV6QACburVzdomA3aU=s68-c-k-c0x00ffffff-no-rj`
 
     [Скриншот Network с ошибками](src/errors.jpg)
 
